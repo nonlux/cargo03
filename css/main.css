@@ -368,7 +368,7 @@ a.color:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('/img/servicesback.jpg');
+  background: url('/cargo03/img/servicesback.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 60%;
@@ -530,7 +530,7 @@ a.color:hover {
   padding-left: 60px;
 }
 .about > .map {
-  background: url('/img/map.png');
+  background: url('/cargo03/img/map.png');
   background-repeat: no-repeat;
   height: 340px;
   width: 800px;
