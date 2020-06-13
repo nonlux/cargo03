@@ -20,7 +20,7 @@ html > body {
   background-color: #222;
   color: #f2f2f2;
   font-family: 'Roboto', sans-serif;
-  min-width: 450px;
+  min-width: 300px;
 }
 
 
@@ -497,34 +497,30 @@ a.color:hover {
 }
 
 
-.center.holder{
-  position: relative;
-  height: 30vw;
-  width: 100%;
-  margin: 0;
+.priceCell.end{
+  padding-bottom: 0;
+}
+
+.priceCell.end > .back {
+  padding-left: 30px;
+  background-color: #fdff5a;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 30px;
+  width: 100%;
+  height: 100%;
+  color: #222;
 }
-
 
 @media (max-width:960px) {
   .priceCell  {
     height: 60vw;
     width: 100%
   }
-  .priceCell.end{
-    margin-top: -62px;
-    height: 0;
-    overflow: visible;
-    justify-content: top;
-  }
-  .center.holder {
-    padding-top: 10px;
+  .priceCell.end {
     height: auto;
+    margin-top: -62px;
   }
-
 
 }
 
@@ -570,14 +566,16 @@ a.color:hover {
     display: none;
   }
   .about {
-    margin-top: 60vh;
     padding-left: 0;
+  }
+  .aboutInfo {
+    height: auto;
   }
 }
 
 @media (max-width:960px) {
   footer {
-    margin-top: 60vh;
+    margin-top: 30px;
   }
 }
 
