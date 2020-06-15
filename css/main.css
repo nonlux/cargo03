@@ -233,7 +233,7 @@ textarea {
   }
 
   pre {
-    white-space: pre-wrap !important;
+    white-space: pre-wrap !important;
   }
 
   pre,
@@ -617,3 +617,14 @@ a:hover .avito {
 .footer-col {
   margin:0 30px;
 }
+
+.walink {
+  color: #f2f2f2;
+  font-size: 1.2rem;
+}
+
+.walink:hover {
+  color: #fdff5a;
+  text-decoration: none;
+}
+
