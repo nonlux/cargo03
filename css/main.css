@@ -287,8 +287,10 @@ textarea {
   font-family: 'Russo One', sans-serif;
   font-size: 2rem;
   color: #f2f2f2;
+  /*
   margin-bottom: 10px;
   border-bottom: 1px solid #f2f2f2;
+ */
 }
 
 .navbar-brand a {
@@ -367,7 +369,7 @@ a.color:hover {
   min-height: 70vh;
   padding-top: 50px;
 }
-.services > .back{
+.services  .back{
   opacity: 0.2;
   position: absolute;
   top: 0;
@@ -628,3 +630,76 @@ a:hover .avito {
   text-decoration: none;
 }
 
+.logo-wrap {
+  text-align: center;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 10px;
+}
+
+
+.cont1 {
+  display: flex;
+}
+.acol1 {
+  position: relative;
+  width: 70%;
+}
+.acol2 {
+  width: 30%;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  color: #f2f2f2;
+}
+
+.serviceBig {
+  margin-top: 5vh;
+}
+.serviceBig  h2{
+  font-size: 1.2rem;
+}
+ul {
+  list-style: none;
+}
+
+.serviceBig ul .color {
+  margin-right: 10px;
+}
+
+.serviceBig .grid {
+  display: flex;
+  min-height: 350px;
+  justify-content: center;
+}
+.serviceBig .grid>div{
+  width: 50%;
+}
+
+.serviceBig .grid ul{
+}
+
+.serviceBig .grid .end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.serviceBig .octagon {
+  font-size: 5rem;
+  line-height: 10rem;
+}
+
+@media (max-width:960px) {
+
+  .serviceBig .grid>div{
+    display:block;
+    width: 100%
+  }
+  .serviceBig h2 {
+    width: 100%;
+  }
+  .serviceBig .grid .end {
+    display: none;
+  }
+}
